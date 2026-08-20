@@ -240,7 +240,7 @@ header .navmenu a:hover::after{
 .hero-buttons .btn-primary{ background: var(--accent-color); border: 2px solid var(--accent-color); transition: all .3s; font-weight: 600;}
 .hero-buttons .btn-outline { color: var(--accent-color); border: 2px solid var(--accent-color); background: transparent; transition: all .3s; font-weight: 600;}
 .hero-buttons .btn-primary:hover{ background: var(--accent-color); transform: translateY(-5px); box-shadow: 0 4px 8px lightblue;}
-.hero-buttons .btn-outline:hover {   transform: translateY(-5px); background: var(--accent-color); box-shadow: 0 4px 8px lightblue;}
+.hero-buttons .btn-outline:hover { color: var(--default-color);  transform: translateY(-5px); background: var(--accent-color); box-shadow: 0 4px 8px lightblue;}
 
 .start-number{ color: var(--accent-color); font-size: 25px; font-weight: 700; }
 .stat-data{ color: color-mix(in srgb, var(--default-color), transparent 30%); font-size: 1.2rem; }
@@ -328,7 +328,7 @@ box-shadow: 0 15px 30px rgba(242, 243, 241, 0.3); }
 .cta-buttons .btn-primary{ background: var(--accent-color); border: 2px solid var(--accent-color); transition: all .3s; font-weight: 500;}
 .cta-buttons .btn-outline {margin-left: 2rem; color: var(--accent-color); border: 2px solid var(--accent-color); background: transparent; transition: all .3s; font-weight: 500;}
 .cta-buttons .btn-primary:hover{ background: var(--accent-color); transform: translateY(-5px); box-shadow: 0 4px 8px lightblue;}
-.cta-buttons .btn-outline:hover {   transform: translateY(-5px); background: var(--accent-color); box-shadow: 0 4px 8px lightblue;}
+.cta-buttons .btn-outline:hover { color: var(--default-color);  transform: translateY(-5px); background: var(--accent-color); box-shadow: 0 4px 8px lightblue;}
 
 /* Why Us */
 
